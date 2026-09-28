@@ -20,6 +20,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "ReCycleAI needs access to your camera to take photos of waste items.",
+          "photosPermission": "ReCycleAI needs access to your photo library to select waste images."
+        }
+      ]
+    ]
   }
 }
